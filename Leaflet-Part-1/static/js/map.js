@@ -26,7 +26,6 @@ function createFeatures(data){
         let color = markerColor(feature);
         let radius = markerRadius(feature);
         let marker = L.circle([feature.geometry.coordinates[1],feature.geometry.coordinates[0]], {
-            draggable: true,
             title: feature.properties.place,
             color: color,
             fillColor: color,

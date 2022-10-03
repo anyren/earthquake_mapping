@@ -31,7 +31,7 @@ function createMap(earthquakes, plates){
     // Create an overlayMaps object 
     let overlayMaps = {
         "Earthquakes": earthquakes,
-        "Techtonic Plates": plates
+        "Tectonic Plates": plates
       }
     // Create the map object with options.
     let map = L.map("map", {
